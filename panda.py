@@ -26,7 +26,7 @@ print("size\n"+str(df.size))
 print("last 5 rows are")
 print(df.tail(5))
 
-x=df.loc[:,'Location']
+x=df.loc[:'Location']
 print(x)
 print("basic statics are")
 print("axes\n"+str(x.axes))
